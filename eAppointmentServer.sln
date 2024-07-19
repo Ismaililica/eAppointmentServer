@@ -5,9 +5,11 @@ VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eAppointmentServer.Domain", "eAppointmentServer.Domain\eAppointmentServer.Domain.csproj", "{69962CF5-A3B3-4294-860D-7C927CF19934}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eAppointmentServer.Application", "eAppointmentServer.Application\eAppointmentServer.Application.csproj", "{C662B054-425B-4C33-AA85-B9AB5346FF04}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eAppointmentServer.Application", "eAppointmentServer.Application\eAppointmentServer.Application.csproj", "{C662B054-425B-4C33-AA85-B9AB5346FF04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eAppointmentServer.Infrastructure", "eAppointmentServer.Infrastructure\eAppointmentServer.Infrastructure.csproj", "{E74DAAE1-7A49-49EF-B51F-8C334FDCF067}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eAppointmentServer.Infrastructure", "eAppointmentServer.Infrastructure\eAppointmentServer.Infrastructure.csproj", "{E74DAAE1-7A49-49EF-B51F-8C334FDCF067}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eAppointmentServer.WebAPI", "eAppointmentServer.WebAPI\eAppointmentServer.WebAPI.csproj", "{72403287-7628-4A2D-8351-9904D97E4EE0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{E74DAAE1-7A49-49EF-B51F-8C334FDCF067}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E74DAAE1-7A49-49EF-B51F-8C334FDCF067}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E74DAAE1-7A49-49EF-B51F-8C334FDCF067}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72403287-7628-4A2D-8351-9904D97E4EE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72403287-7628-4A2D-8351-9904D97E4EE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72403287-7628-4A2D-8351-9904D97E4EE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72403287-7628-4A2D-8351-9904D97E4EE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
